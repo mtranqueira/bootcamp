@@ -1,0 +1,25 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "Workshop CiCd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtranqueira/bootcamp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtranqueira/bootcamp/issues"
+  },
+  "homepage": "https://github.com/mtranqueira/bootcamp#readme",
+  "devDependencies": {
+    "angular": "^1.8.0",
+    "angular-aria": "^1.7.9",
+    "angular-material": "^1.1.24",
+    "angular-messages": "^1.7.9"
+  }  
+}
