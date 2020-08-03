@@ -4,12 +4,12 @@
     angular
         .module('module')
         .config(function($stateProvider, $urlRouterProvider){
-            $urlRouterProvider.otherwise('/');
+            $urlRouterProvider.otherwise('/root');
             $stateProvider
                 .state(
                     {
                         name:'root',
-                        url:'/',
+                        url:'/root',
                         template:'<h2>Início</h2>'
                     }
                 );
