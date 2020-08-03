@@ -21,5 +21,8 @@
     "angular-aria": "^1.7.9",
     "angular-material": "^1.1.24",
     "angular-messages": "^1.7.9"
-  }  
+  },
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.7"
+  }
 }
