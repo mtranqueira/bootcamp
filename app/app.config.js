@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('module')
+        .module('app-bootcamp')
         .config(function($stateProvider, $urlRouterProvider){
             $urlRouterProvider.otherwise('/root');
             $stateProvider
