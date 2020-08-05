@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('module')
+        .module('app-bootcamp')
         .config(function($stateProvider, $urlRouterProvider){
             $urlRouterProvider.otherwise('/root');
             $stateProvider
@@ -10,7 +10,7 @@
                     {
                         name:'root',
                         url:'/root',
-                        template:'<h2>Início</h2>'
+                        component:'apresentacao'
                     }
                 );
         });

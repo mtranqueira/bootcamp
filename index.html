@@ -7,8 +7,19 @@
 		<meta name="keywords" content="" />
 		<link rel="stylesheet" href="node_modules/angular-material/angular-material.css" />
 	</head>
-	<body class="is-preload">
-		<ui-view></ui-view>
+	<body class="is-preload" ng-app="app-bootcamp">
+		<md-toolbar class="md-hue-2">
+			<div class="md-toolbar-tools">
+				<h2 flex md-truncate>Router Test</h2>
+
+				<md-button class="md-button" aria-label="More">
+					...
+				</md-button>
+			</div>
+    	</md-toolbar>
+		<md-content>
+			<ui-view></ui-view>
+		</md-content>
 		<script src="node_modules/angular/angular.min.js"></script>
 		<script src="node_modules/angular-aria/angular-aria.min.js"></script>
 		<script src="node_modules/angular-animate/angular-animate.min.js"></script>
@@ -18,5 +29,6 @@
 		<script src="node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
 		<script src="app/app.js"></script>
 		<script src="app/app.config.js"></script>
+		<script src="modules/apresentacao/apresentacao.js"></script>
 	</body>
 </html>
