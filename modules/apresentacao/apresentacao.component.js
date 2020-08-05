@@ -22,7 +22,7 @@
         ////////////////
 
         function onInit() {
-            console.log(init);
+            console.log('init');
          };
     }
 })();
